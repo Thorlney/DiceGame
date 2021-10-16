@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+            <div class="player-0-panel active" >
+                
+                <div class="player-name" id="name-0">
+                    Player1
+                </div>
+                    <div class="player-score" id="score-0">
+                        2
+                    </div>
+
+                        <div  class="player-current-box">
+                           
+                            <div class="player-current-label">
+                                Current
+                            </div>
+                            <div class="player-current-score" id="current-0">
+                                11
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                <!-- The other panel -->
+
+                    <div class="player-1-panel">
+                
+                        <div class="player-name" id="name-1">
+                            Player2
+                        </div>
+                            <div class="player-score" id="score-1">
+                                2
+                            </div>
+        
+                                <div  class="player-current-box">
+                                   
+                                    <div class="player-current-label">
+                                        Current
+                                    </div>
+                                    <div class="player-current-score" id="current-1">
+                                        11
+                                    </div>
+                                </div>
+                        
+                            </div>
+
+                            <button class="btn-new">
+                                New Game
+                            </button>
+                            <button class="btn-roll">
+                                    Roll Dice
+                            </button>
+                            <button class="btn-hold">   
+                                    Hold
+                            </button>
+
+                            <img class="dice" src="Image/dice-1.png" alt="Dice" id="dice-img">
+    </div>
+
+    
+</body>
+<script src= "./JavaS/diceGame.js">
+    document.write("HelloWorld");
+    alert("Instructions: The first player to get to 200 wins the game. If you roll one, you automatically lose your turn and when you hold, the points accumulated would be added to your score.");
+</script>
+</html>
